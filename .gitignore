@@ -1,8 +1,6 @@
 # Data files - never push raw or processed data to GitHub
-data/
-*.csv
-*.parquet
-*.feather
+data/*
+!data/.gitkeep
 
 # Model files - large binaries
 models/*.pkl
